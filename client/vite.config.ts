@@ -65,12 +65,12 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/oauth/],
       },
       manifest: {
-        name: 'LibreChat',
-        short_name: 'LibreChat',
+        name: 'AiBraryChat',
+        short_name: 'AiBraryChat',
         start_url: '/',
         display: 'standalone',
-        background_color: '#000000',
-        theme_color: '#009688',
+        "background_color": "#EBFF38",
+        "theme_color": "#FFFFFF",
         icons: [
           {
             src: '/assets/favicon-32x32.png',
